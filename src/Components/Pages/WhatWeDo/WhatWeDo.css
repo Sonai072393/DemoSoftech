@@ -1,0 +1,35 @@
+.WhatWeDo h1 {
+  font-size: 50px;
+  text-align: center;
+  margin: 2rem;
+  background: -webkit-linear-gradient(
+    55deg,
+    rgb(156, 14, 156),
+    rgb(223, 59, 59)
+  );
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.img_container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.img_container img:hover {
+  transition: transform 0.7s ease-in-out;
+  transform: rotate(360deg);
+}
+.img_container img {
+  width: 300px;
+}
+@media only screen and (max-width: 1100px) {
+  .img_container img {
+    width: 25%;
+  }
+  .img_container img:hover {
+    transition: transform 0.7s ease-in-out;
+    transform: rotate(360deg);
+  }
+}

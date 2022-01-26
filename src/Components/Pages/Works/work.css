@@ -1,0 +1,38 @@
+.header_container h1 {
+  font-size: 50px;
+  margin: 2rem;
+  background: -webkit-linear-gradient(
+    55deg,
+    rgb(156, 14, 156),
+    rgb(223, 59, 59)
+  );
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.header_container h3 {
+  font-size: 25px;
+  margin: 2rem;
+  background: -webkit-linear-gradient(
+    55deg,
+    rgb(40, 14, 156),
+    rgb(138, 223, 59)
+  );
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.header_container h1,
+h3 {
+  text-align: center;
+}
+
+.carousel-caption {
+  background-color: rgb(233, 14, 14, 0.4);
+  border-radius: 10px;
+  
+}
+
+.carousel-caption h3{
+    font-size: 50px;
+    color: rgb(255, 255, 255)
+}
+
