@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/DemoSoftech/static/css/main.a0f03a78.css",
+    "main.css": "/DemoSoftech/static/css/main.da6f3eeb.css",
     "main.js": "/DemoSoftech/static/js/main.cae00eed.js",
     "static/js/787.c96d8ac6.chunk.js": "/DemoSoftech/static/js/787.c96d8ac6.chunk.js",
     "static/media/ERP-Banner1-1536x560.png": "/DemoSoftech/static/media/ERP-Banner1-1536x560.3e6314ff54bf063ffabb.png",
@@ -14,12 +14,12 @@
     "static/media/erp_development.png": "/DemoSoftech/static/media/erp_development.016975a5044b19cf4a16.png",
     "static/media/softechsolutions_logo.png": "/DemoSoftech/static/media/softechsolutions_logo.2e046d0a20c2176cdbc9.png",
     "index.html": "/DemoSoftech/index.html",
-    "main.a0f03a78.css.map": "/DemoSoftech/static/css/main.a0f03a78.css.map",
+    "main.da6f3eeb.css.map": "/DemoSoftech/static/css/main.da6f3eeb.css.map",
     "main.cae00eed.js.map": "/DemoSoftech/static/js/main.cae00eed.js.map",
     "787.c96d8ac6.chunk.js.map": "/DemoSoftech/static/js/787.c96d8ac6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a0f03a78.css",
+    "static/css/main.da6f3eeb.css",
     "static/js/main.cae00eed.js"
   ]
 }
