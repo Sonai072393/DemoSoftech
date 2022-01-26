@@ -5,6 +5,7 @@ import headerLogo from './Components/UI/Img/softechsolutions_header_log.png'
 import WhatWeDo from './Components/Pages/WhatWeDo/WhatWeDo';
 import Work from "./Components/Pages/Works/Work";
 import CustomerSay from "./Components/Pages/CustomerSay/CustomerSay";
+import Start from "./Components/Pages/StartProject/Start";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <WhatWeDo/>
         <Work/>
         <CustomerSay/>
+        <Start/>
      
     </div>
   );
