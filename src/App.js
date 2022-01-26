@@ -8,6 +8,8 @@ import CustomerSay from "./Components/Pages/CustomerSay/CustomerSay";
 import Start from "./Components/Pages/StartProject/Start";
 import Footer from "./Components/Pages/Footer/Footer";
 
+
+
 function App() {
   return (
     <div className="App">
@@ -18,6 +20,7 @@ function App() {
         <NavBar />
       </header>
       <body>
+         
         <Banner />
         <WhatWeDo />
         <Work />

@@ -17,7 +17,7 @@ const Work =()=>{
         <h1>Our featured works</h1>
         <h3>Take a look at how we solve challenges to meet project requirements ​</h3>
     </div>
-    <Carousel>
+    <Carousel bsPrefix="carousel">
   <Carousel.Item bsPrefix="carousel-item">
     <img
       className="d-block w-100"
@@ -26,7 +26,6 @@ const Work =()=>{
     />
     <Carousel.Caption bsPrefix="carousel-caption">
       <h3>First slide label</h3>
-      <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
     </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item>
@@ -38,7 +37,6 @@ const Work =()=>{
 
     <Carousel.Caption bsPrefix="carousel-caption">
       <h3>Second slide label</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
     </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item>
@@ -50,7 +48,6 @@ const Work =()=>{
 
     <Carousel.Caption bsPrefix="carousel-caption">
       <h3>Third slide label</h3>
-      <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
     </Carousel.Caption>
   </Carousel.Item>
 </Carousel>

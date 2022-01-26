@@ -13,9 +13,18 @@
 }
 .brand_logo{
     width:25px;
-    margin-left: -60px;
+    margin-left: -6px;
     margin-right: 10px;
     animation: spin 2s infinite;
+}
+
+.link{
+  text-decoration: none;
+  color: white;
+
+}
+.link:hover{
+  color: orange;
 }
 @keyframes spin {
     0% {

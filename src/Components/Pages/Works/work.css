@@ -24,8 +24,12 @@
 h3 {
   text-align: center;
 }
-
+.carousel{
+  margin: 3rem;
+  /* padding: 3rem; */
+}
 .carousel-caption {
+  border: solid;
   background-color: rgb(233, 14, 14, 0.4);
   border-radius: 10px;
   
@@ -33,6 +37,20 @@ h3 {
 
 .carousel-caption h3{
     font-size: 50px;
-    color: rgb(255, 255, 255)
+    color: rgb(255, 255, 255);
+    /* padding-top:0rem; */
 }
 
+@media only screen and (max-width:1100px) {
+  .carousel-caption {
+    width: 30%;
+    margin-left: 8rem;
+    margin-bottom: 1rem;
+    
+  }
+  .carousel-caption h3{
+    font-size: 13.5px;
+    color: rgb(255, 255, 255);
+    
+}
+}
