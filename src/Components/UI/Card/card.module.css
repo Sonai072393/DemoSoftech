@@ -1,9 +1,9 @@
 .card{
     
-    /* height:25rem;
-    width:50%; */
-    /* margin: auto; */
+    height:auto;
+    width:50%;
+    margin: auto;
     background-color: rgb(247, 244, 244);
-    /* border-radius: 5rem; */
+    border-radius: 2rem;
 
 }
