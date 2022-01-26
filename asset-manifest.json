@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/DemoSoftech/static/css/main.a0f03a78.css",
+    "main.js": "/DemoSoftech/static/js/main.cae00eed.js",
+    "static/js/787.c96d8ac6.chunk.js": "/DemoSoftech/static/js/787.c96d8ac6.chunk.js",
+    "static/media/ERP-Banner1-1536x560.png": "/DemoSoftech/static/media/ERP-Banner1-1536x560.3e6314ff54bf063ffabb.png",
+    "static/media/screenshot3-300x146.png": "/DemoSoftech/static/media/screenshot3-300x146.4a3428773ddf1f5ae800.png",
+    "static/media/screenshot2-300x146.png": "/DemoSoftech/static/media/screenshot2-300x146.de6eaf70b715ee1f0474.png",
+    "static/media/ckingtea.com.png": "/DemoSoftech/static/media/ckingtea.com.d0619be387b07099235c.png",
+    "static/media/web_designing-1.png": "/DemoSoftech/static/media/web_designing-1.03a1a7d4d10ac7f0fa4e.png",
+    "static/media/registration_hosting.png": "/DemoSoftech/static/media/registration_hosting.2f50e71e73f6c2d9f4cb.png",
+    "static/media/softechsolutions_header_log.png": "/DemoSoftech/static/media/softechsolutions_header_log.fe59fc83a62e8d4aa400.png",
+    "static/media/web_application-2.png": "/DemoSoftech/static/media/web_application-2.6a83c26fd15a8f5fce59.png",
+    "static/media/erp_development.png": "/DemoSoftech/static/media/erp_development.016975a5044b19cf4a16.png",
+    "static/media/softechsolutions_logo.png": "/DemoSoftech/static/media/softechsolutions_logo.2e046d0a20c2176cdbc9.png",
+    "index.html": "/DemoSoftech/index.html",
+    "main.a0f03a78.css.map": "/DemoSoftech/static/css/main.a0f03a78.css.map",
+    "main.cae00eed.js.map": "/DemoSoftech/static/js/main.cae00eed.js.map",
+    "787.c96d8ac6.chunk.js.map": "/DemoSoftech/static/js/787.c96d8ac6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a0f03a78.css",
+    "static/js/main.cae00eed.js"
+  ]
+}
