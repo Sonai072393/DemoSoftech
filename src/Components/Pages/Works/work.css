@@ -24,33 +24,35 @@
 h3 {
   text-align: center;
 }
-.carousel{
+.carousel {
   margin: 3rem;
   /* padding: 3rem; */
 }
 .carousel-caption {
-  border: solid;
+  /* border: solid; */
   background-color: rgb(233, 14, 14, 0.4);
   border-radius: 10px;
-  
+  width: 20%;
+  margin-bottom: 2rem;
+  margin-left: 20rem;
 }
 
-.carousel-caption h3{
-    font-size: 50px;
-    color: rgb(255, 255, 255);
-    /* padding-top:0rem; */
+.carousel-caption h3 {
+  font-size: 15pt;
+  color: rgb(255, 255, 255);
+  /* padding-top:0rem; */
 }
 
-@media only screen and (max-width:1100px) {
+@media only screen and (max-width: 600px) {
   .carousel-caption {
-    width: 30%;
-    margin-left: 8rem;
+    padding: 0rem;
+    height: 0.1rem;
+    width: 20%;
+    margin-left: 6rem;
     margin-bottom: 1rem;
-    
   }
-  .carousel-caption h3{
-    font-size: 13.5px;
+  .carousel-caption h3 {
+    font-size: 1.5px;
     color: rgb(255, 255, 255);
-    
-}
+  }
 }

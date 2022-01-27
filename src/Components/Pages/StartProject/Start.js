@@ -8,7 +8,7 @@ const Start =()=>{
     <h1>
     Start a project with Softech ERP Solutions
     </h1>
-    <input type="button" Value="Start A Project"/>
+    <input type="button" Value="Start A Project" className="project_button"/>
 </div>
     );
 }

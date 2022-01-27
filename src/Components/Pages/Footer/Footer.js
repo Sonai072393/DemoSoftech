@@ -16,29 +16,28 @@ const Footer = () => {
       {/* 1st card */}
       <Card
         border="primary"
-        style={{
-          width: "20rem",
-          height: "20rem",
-          borderRadius: "2rem",
-          marginLeft: "2rem",
-        }}
+        style={{borderRadius:"2rem"}}
+        bsPrifix='card'
+
       >
         <div className="card_img_container">
-          <img
+         <div className="card_img">
+         <img
             src={logo_s}
-            className="card-img"
             alt="logo_S"
           />
-          <img
+           </div> 
+           <div className="card_img">
+           <img
             src={logo}
-            style={{ width: "8rem" }}
-            className="card-img"
-            alt="logo"
+            alt="logo_S"
           />
+           </div>
+          
         </div>
         <Card.Body>
-          <Card.Title style={{ color: "blue" }}>Info</Card.Title>
-          <Card.Text style={{ textAlign: "justify" }}>
+          <h1 className="title">Info</h1>
+          <Card.Text bsPrifix="text">
             Softech ERP Solutions Pvt. Ltd. is a software development firm
             located in the metropolis of Kolkata, India. The company started its
             operation as Softech Solutions in 2002 and was later incorporated in
@@ -48,21 +47,18 @@ const Footer = () => {
       </Card>
       {/* 2nd card */}
       <Card
+      bsPrifix='card'
         border="primary"
         style={{
-          width: "20rem",
-          height: "20rem",
           borderRadius: "2rem",
-          marginLeft: "3rem",
         }}
       >
         <Card.Header
           style={{
             borderRadius: "2rem 2rem 0 0",
             color: "blue",
-            fontWeight: "500",
           }}
-          className="card_header"
+          className="title"
         >
           Services
         </Card.Header>
@@ -79,12 +75,9 @@ const Footer = () => {
       <Card
         border="primary"
         style={{
-          width: "20rem",
-          height: "20rem",
           borderRadius: "2rem",
-          marginLeft: "3rem",
-          float: "right",
         }}
+        bsPrifix='card'
       >
         <Card.Header
           style={{
@@ -92,36 +85,25 @@ const Footer = () => {
             color: "blue",
             fontWeight: "500",
           }}
-          className="card_header"
+          className="title"
         >
           Contact Us
         </Card.Header>
         <Card.Body>
-          <Card.Title
-            style={{
-              color: "orange",
-              fontWeight: "500",
-            }}
-          >
+          <h4 className="title_h" style={{color:"orange"}}>
             Address
-          </Card.Title>
+          </h4>
           <Card.Text>
             19/6 Sahapur Colony Block – J New Alipore, Kolkata 700053
           </Card.Text>
 
-          <Card.Title
-            style={{
-              color: "orange",
-              fontWeight: "500",
-            }}>
+          <h4 className="title_h" style={{color:"orange"}}>
             Phone
-          </Card.Title>
+          </h4>
           <Card.Text>+919831556450</Card.Text>
 
-          <Card.Title style={{
-            color: "orange",
-            fontWeight: "500",
-          }}>Email</Card.Title>
+          <h4
+          className="title_h" style={{color:"orange"}}>Email</h4>
           <Card.Text>info@softechsolutions.co.in</Card.Text>
         </Card.Body>
       </Card>
